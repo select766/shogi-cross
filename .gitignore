@@ -60,3 +60,4 @@ typings/
 # Auto generated files
 /app/js
 /Engine
+!.gitkeep
