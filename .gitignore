@@ -58,4 +58,5 @@ typings/
 .env
 
 # Auto generated files
-app/js
+/app/js
+/Engine

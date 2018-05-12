@@ -1,8 +1,8 @@
 import * as electron from "electron";
-import {app, BrowserWindow} from "electron";
-
+import {app, BrowserWindow, ipcMain} from "electron";
 import * as path from "path";
 import * as url from "url";
+import * as match from "./match";
 
 let mainWindow: BrowserWindow;
 
@@ -25,3 +25,5 @@ app.on("window-all-closed", () => {
 });
 
 app.on("ready", createWindow);
+
+match.init();
