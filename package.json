@@ -1,0 +1,29 @@
+{
+  "name": "shogi-cross",
+  "version": "0.1.0",
+  "description": "Cross-platform GUI for Shogi AI",
+  "main": "app/js/index.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/select766/shogi-cross.git"
+  },
+  "keywords": [
+    "Shogi",
+    "GUI"
+  ],
+  "author": "select766",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/select766/shogi-cross/issues"
+  },
+  "homepage": "https://github.com/select766/shogi-cross#readme",
+  "devDependencies": {
+    "electron": "^2.0.0",
+    "typescript": "^2.8.3"
+  }
+}
