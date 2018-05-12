@@ -28,3 +28,10 @@ npm run build
 ```
 npm start
 ```
+
+# Windows実行ファイル作成
+```
+npm run package:win
+```
+
+`out\shogi-cross-win32-ia32`を配布。

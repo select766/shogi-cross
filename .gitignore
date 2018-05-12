@@ -58,6 +58,7 @@ typings/
 .env
 
 # Auto generated files
+!.gitkeep
 /app/js
 /Engine
-!.gitkeep
+/out
